@@ -67,8 +67,8 @@ services:
     ports:
       - "3001:8000"
     volumes:
-      - ../mosher-forecast-react:/app
-      - ../mosher-forecast-react/app/node_modules
+      - ../Mosher-Forecast-React:/app
+      - ../Mosher-Forecast-React/app/node_modules
 #      - ../mosher-forecast-frontend:/opt/node_app/app:delegated
       # bind-mounting these two files in will let you add packages during development without rebuilding
       # for example, to add bower to your app while developing, just install it inside the container
